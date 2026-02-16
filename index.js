@@ -83,7 +83,6 @@ async function showDetails(id) {
         // Inject data into modal
         content.innerHTML = `
             <div>
-                <p class="text-indigo-600 font-bold text-sm uppercase">${product.category}</p>
                 <h2 class="text-2xl font-bold text-slate-800 mt-2">${product.title}</h2>
                 <p class="text-slate-500 mt-4 text-sm leading-relaxed">${product.description}</p>
                 <div class="mt-6 flex items-center justify-between">
