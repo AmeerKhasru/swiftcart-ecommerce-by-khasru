@@ -106,6 +106,6 @@ function closeModal() {
 }
 
 
-// Initialize page
+
 loadCategories();
 loadProducts();
